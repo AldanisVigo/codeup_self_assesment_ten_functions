@@ -20,3 +20,14 @@
  * and
  * concat
  */
+
+const isTrue = (val) => val === true
+const addOne = (val) => Number.parseFloat(val) + 1
+const concat = (val1,val2) => val1.toString()+val2.toString()
+const isEven = (val) => Number.parseFloat(val)%2===0 || false
+const isEqual = (val1,val2) => val1==val2
+const and = (val1,val2) => val1&&val2
+const isFalse = (val) => val === false
+const not = (val) => !val;
+const isIdentical = (val1,val2) => val1 === val2
+const or = (val1,val2) => val1 || val2
